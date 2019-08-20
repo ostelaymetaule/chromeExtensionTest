@@ -1,0 +1,1 @@
+document.body.innerHTML = document.body.innerHTML.replace(/Newt Gingrich says/g, 'who cares what legendary asshole Newt Gingrich says');

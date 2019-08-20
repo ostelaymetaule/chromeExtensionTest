@@ -1,0 +1,23 @@
+{
+    "name": "MatthewMode",
+    "version": "1.0",
+    "description": "Extension adds Who cares what legendary asshole! o any headline that includes Newt Gingrich says.",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+      "content_scripts":[
+          {
+              "matches":[
+                  "http://*/*",
+                  "https://*/*"
+              ],
+              "js":[
+                  "content.js"
+              ],
+              "run_at":"document_end"
+          }
+      ],
+ 
+    "manifest_version": 2
+  }
